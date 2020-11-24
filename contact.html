@@ -1,0 +1,58 @@
+
+<head>
+  <title> Derek Wen | Portfolio Website </title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <div id="header"> <b> Contact Me! </b> </div>
+  <nav id="nav">
+    <ul>
+      <li> <a href="index.html" id="home"> Home </a> </li>
+      <li> <a href="about.html" id="about"> About </a> </li>
+      <li> <a href="resume.html" id="resume"> Resume </a> </li>
+      <li> <a href="contact.html" id="contact"> Contact </a> </li>
+    </ul>
+  </nav>
+
+  <form method="post" action="contact.php">
+
+
+    <label for="pronoun"> Pronouns:</label><br>
+    <input type="text" id="pronoun" name="pronoun"><br>
+
+    <label for="fname"> First name*:</label><br>
+    <input type="text" id="fname" name="fname" required><br>
+
+    <label for="lname"> Last name*: </label><br>
+    <input type="text" id="lname" name="lname" required><br>
+
+    <label for="email"> Email Address*: </label><br>
+    <input type="text" id="email" name="email" required><br>
+
+    <p> Subject Header: </p>
+    <input type="checkbox" id="check1" name="check1">
+    <label for="check1"> Interested in connecting to learn more about my projects </label><br>
+    <input type="checkbox" id="check2" name="check2">
+    <label for="check2"> Interested in connecting to learn more about my academic/professional path</label><br>
+    <input type="checkbox" id="check3" name="check3">
+    <label for="check3"> Other </label><br><br>
+
+    <label for="message" > Message*: </label><br>
+    <textarea name="message" id="message" required></textarea><br><br>
+
+
+
+    <input type="submit" value="Submit">
+  </form>
+
+  <div id="schedule">
+  <h2> Schedule a meeting with me! </h2>
+  <p>If you'd rather schedule a meeting with me via Zoom or another video-conferencing software,
+  please feel free to schedule one via my Google Calendar! I've made it easy to do so. Please take a look at my Google calendar
+  below and either schedule a meeting with me directly on the calendar or send me an email with which times for best for you. Please
+  note that the displayed times are in PST.
+  </p></div>
+<iframe src="https://calendar.google.com/calendar/embed?src=derek.wen2001%40gmail.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+  <div id="footer"><footer> &copy Derek Wen 2020 </footer></div>
+  </body>

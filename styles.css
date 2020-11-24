@@ -1,0 +1,111 @@
+#nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #a2b9bc;
+}
+
+#nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}
+
+#nav ul li a{
+  display: block;
+  padding: 1em;
+  color: #3D3745;
+  text-decoration: none;
+}
+
+#header{
+  text-align: center;
+  font-family: monospace;
+  font-size: 5em;
+  padding-top: 10%;
+
+}
+
+#project_title {
+  text-align: center;
+  font-size: 30px;
+  text-shadow: 2px;
+}
+
+#profilepic {
+  width: 20%;
+  border-radius: 1em;
+  float: left;
+  padding: .6em;
+  height: 25%;
+}
+
+#click {
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  background-color: #878f99;
+  padding: 5px;
+}
+
+#project_title{
+  width: 100%;
+  background-color: #878f99;
+  font-family: monospace;
+  font-size: 4em;
+}
+
+.title {
+  text-align: center;
+  font-size: 2em;
+  border: 1px solid black;
+  padding: 10px;
+  font-family: monospace;
+  margin: 10px;
+}
+#welcome{
+  text-align: center;
+  padding-top: 10%;
+  font-size: 2.5em;
+}
+
+#footer {
+  padding-top: 5%;
+}
+
+#message{
+  height: 5em;
+  width: 75%;
+}
+
+#About{
+  font-size: 1.2em;
+  font-family: serif;
+  height: 25%;
+  padding-top: 5%;
+  margin-left: 25%;
+}
+
+#aboutbot{
+  font-size: 1.2em;
+  font-family: serif;
+  padding-top: 5%;
+
+}
+
+#youtube{
+  display: flex;
+  justify-content: center;
+
+}
+
+#schedule{
+  font-size: 1.2em;
+}
+
+#description{
+  font-size: 1.5em;
+  font-family:monospace;
+}
