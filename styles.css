@@ -81,16 +81,16 @@
 }
 
 #About{
-  font-size: 1.2em;
-  font-family: serif;
+  font-size: 2em;
+  font-family: monospace;
   height: 25%;
   padding-top: 5%;
   margin-left: 25%;
 }
 
 #aboutbot{
-  font-size: 1.2em;
-  font-family: serif;
+  font-size: 1.75em;
+  font-family: monospace;
   padding-top: 5%;
 
 }
